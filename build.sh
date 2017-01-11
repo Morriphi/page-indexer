@@ -2,6 +2,11 @@
 
 cd page-parser
 
+echo '---------------'
+echo 'Installing Bundler'
+echo '---------------'
+gem install bundler
+
 echo '-------------------'
 echo 'Bundling Page Parser'
 echo '-------------------'
@@ -13,6 +18,11 @@ echo '-------------------'
 rake test
 
 cd ../api
+
+echo '---------------'
+echo 'Installing Bundler'
+echo '---------------'
+gem install bundler
 
 echo '------------'
 echo 'Bundling API'

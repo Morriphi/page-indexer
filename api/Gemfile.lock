@@ -1,5 +1,5 @@
 PATH
-  remote: /Users/philipmorris/Dev/page-indexer/page-parser
+  remote: ../page-parser
   specs:
     page-parser (0.0.5)
       nokogiri (= 1.7.0.1)
